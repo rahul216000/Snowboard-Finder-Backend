@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 const cors = require('cors');
 app.use(cors({
   origin: [
-    // 'http://127.0.0.1:5500',
+    'https://snowboardingdays.com',
   'https://snowboard-finder.netlify.app'
 ]
 }));
@@ -44,12 +44,6 @@ async function webScraper(url) {
 
     return text;
 };
-
-
-
-
-
-
 
 
 app.listen(PORT, (error) => {
