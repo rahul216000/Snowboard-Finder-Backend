@@ -6,7 +6,7 @@ const cheerio = require('cheerio');
 const cors = require('cors');
 app.use(cors({
   origin: [
-    'https://snowboardingdays.com',
+    'https://www.snowboardingdays.com',
   'https://snowboard-finder.netlify.app'
 ]
 }));
