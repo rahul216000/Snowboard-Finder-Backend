@@ -7,7 +7,8 @@ const cors = require('cors');
 app.use(cors({
   origin: [
     'https://snowboardingdays.com',
-  'https://surfboard-volume.netlify.app'
+    'https://surfboard-volume.netlify.app',
+    'https://ski-tool.netlify.app'
 ]
 }));
 app.use(express.json())
